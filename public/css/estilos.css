@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(../img/fondo.png);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	text-align: center;
+	color: #fff;
+}
+.logo img{
+	margin-top: 120px;
+	width: 25%;
+}
+.boton{
+    margin-top: 40px;
+}
+#btn2{
+	width: 50%;
+	background-color: #E71D36;
+	border-color: #E71D36;
+	color: #fff;
+	font-size: 18px;
+	line-height: 2.50;
+}
+.boton a:hover{
+	background-color: #fff;
+	color: #E71D36;
+}
+.loggedin {
+  display: none;
+}
+.text-overflow {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 500px;
+}
+.buscar{
+	background-color: #E71D36;
+}
+#search-form, .form-control {
+    margin-bottom: 20px;
+}
+.form-control{
+	width: 80%;
+}
+.cover {
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    background-size: cover;
+}
+.cover:hover {
+    cursor: pointer;
+}
+.cover.playing {
+    border: 5px solid #e45343;
+}
+.nombre{
+	font-weight: bold;
+}
+.dl-horizontal dt{text-align: left;}
+.dl-horizontal dd{text-align: left;}
